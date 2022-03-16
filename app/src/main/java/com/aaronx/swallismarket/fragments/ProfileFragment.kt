@@ -23,15 +23,15 @@ import com.aaronx.swallismarket.ui.theme.SurfaceColor
 
 @Composable
 fun ProfileFragment(){
-    val painter = rememberImagePainter(R.drawable.profile_pic)
-    val mainProfile = User("Aaron"
-        , "Nerox"
+    val painter = rememberImagePainter(R.drawable.man)
+    val mainProfile = User("USER"
+        , "01"
         , "Passcode"
         , ""
-        ,"hh_kechaoui@esi.dz"
-        , "09-09-1999"
-        , "Blida, Algeria"
-        , "0550505000")
+        ,"user@user.com"
+        , "09-09-1989"
+        , "Bab Zouar , dar El beiyda, Alger"
+        , "(213)553405450")
 
     Column(modifier = Modifier.fillMaxSize()
         , horizontalAlignment = Alignment.CenterHorizontally) {

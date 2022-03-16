@@ -120,7 +120,7 @@ fun BottomBarItem(isSelected: Boolean,
 fun ProfileItem(isSelected: Boolean){
     val selectedColor by animateColorAsState(targetValue = MaterialTheme.colors.primary)
     val itemSelectedColor by animateColorAsState(targetValue = MaterialTheme.colors.surface)
-    val profilePainter = rememberImagePainter(data = R.drawable.profile_pic)
+    val profilePainter = rememberImagePainter(data = R.drawable.man)
 
     Box(modifier= Modifier
         .height(50.dp)

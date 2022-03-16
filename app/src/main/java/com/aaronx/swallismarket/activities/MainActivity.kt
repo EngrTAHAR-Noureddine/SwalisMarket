@@ -9,10 +9,12 @@ import androidx.compose.foundation.background
 import androidx.compose.material.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
+import androidx.navigation.navArgument
 import com.aaronx.swallismarket.R
 import com.aaronx.swallismarket.fragments.*
 import com.aaronx.swallismarket.ui.composables.BottomBar
@@ -56,7 +58,10 @@ fun MainContent(){
                     composable("Cart") { CartFragment() }
                     composable("Orders") { OrdersFragment() }
                     composable("Profile") { ProfileFragment() }
-                    composable("Home/Product/{id}"){ ProductDetailFragment() }
+                    composable("Product/{id}"
+                        , arguments = listOf(navArgument("id") { type = NavType.StringType })) { entry ->
+                        ProductDetailFragment(entry.arguments?.getString("id")!!)
+                    }
                 }
             },
             bottomBar = {

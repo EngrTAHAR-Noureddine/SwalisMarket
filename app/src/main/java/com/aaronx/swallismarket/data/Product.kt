@@ -4,14 +4,13 @@ data class Product(
     var name: String = "",
     var price: Double = 0.0,
     var picture: String = "",
+
+    var status : String = "",
+    var description:String = "",
+    var idArtisan:String = "",
+
+    var idProduct:String = "",
+    var ingredients:String = "",
+
 )
-/**
- * add field :
- * ingredients String
- * description String
- * idArtisan String
- * price convert to String not Double
- *
- * and list of orders kima list of product with status we khlass
- *
- * */
+
