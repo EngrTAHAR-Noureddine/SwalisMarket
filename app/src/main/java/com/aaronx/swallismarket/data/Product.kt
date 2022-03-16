@@ -9,7 +9,7 @@ data class Product(
  * add field :
  * ingredients String
  * description String
- * idUser String
+ * idArtisan String
  * price convert to String not Double
  *
  * and list of orders kima list of product with status we khlass

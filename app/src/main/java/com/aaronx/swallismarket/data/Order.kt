@@ -10,5 +10,5 @@ data class Order(
  * + pictureProduct String
  * + priceProduct String
  * + quantity String
- * +
+ * + idArtisan String
  * **/
