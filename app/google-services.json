@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "291655038631",
+    "project_id": "swalis-b3ac3",
+    "storage_bucket": "swalis-b3ac3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291655038631:android:3937f2853a6000c22b8d82",
+        "android_client_info": {
+          "package_name": "com.aaronx.swallismarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "291655038631-2s1ss3t0j054nsuj9jrotq00qgvvof6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzDUD9A_-gSh_cZV80eJUi_HXspLn1Cmo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "291655038631-2s1ss3t0j054nsuj9jrotq00qgvvof6s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
